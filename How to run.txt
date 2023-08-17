@@ -1,0 +1,5 @@
+Open Three Terminals:
+
+1.cd in client folder and write npm start
+2.write npm run dev
+3.Install hardhat and run it by writing npx hardhat 

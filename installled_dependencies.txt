@@ -1,0 +1,15 @@
+npm i --save-dev hardhat@2.12.4
+npx hardhat -> create a js project + enter
+npm install --save-dev "hardhat@^2.12.4" "@nomicfoundation/hardhat-toolbox@^2.0.0"
+
+
+npm i -g create-react-app
+create-react-app my-react-app //or whatever you want your project to be
+cd my-react-app
+yarn start
+
+npx hardhat node(makes blockchain to run where we deploy our smart contract)
+Add hardhat network in Metamask
+ where rpc url is http://127.0.0.1:8545/ and chain id is 31337
+using this private key 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e to import account
+npx hardhat run --network localhost scripts/deploy.js
